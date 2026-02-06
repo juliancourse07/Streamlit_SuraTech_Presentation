@@ -102,7 +102,7 @@ if st.session_state.step == 0:
     <div class="story-section dark">
         <div style="text-align: center;">
             <h1 style="font-size: 3.5em; margin: 0 0 20px 0;">👤</h1>
-            <h1 style="margin: 0 0 20px 0;">Un Día en la Vida de María</h1>
+            <h1 style="margin: 0 0 20px 0;">Un Día en la Vida de Estefanía</h1>
             <p style="font-size: 1.3em; opacity: 0.9; line-height: 1.8;">
                 Esta no es una presentación técnica.<br>
                 Es una historia sobre <strong>entender lo que realmente importa</strong>.<br><br>
@@ -124,17 +124,17 @@ if st.session_state.step == 0:
 elif st.session_state.step == 1:
     st.markdown("""
     <div class="story-section">
-        <h2 style="color: #0072CE;">📍 Capítulo 1: Conoce a María (Cliente B2C)</h2>
+        <h2 style="color: #0072CE;">📍 Capítulo 1: Conoce a Estefanía (Cliente B2C)</h2>
         <div class="character">
             <div class="character-avatar">👩‍💼</div>
             <div class="character-info">
-                <h3>María Rodríguez</h3>
+                <h3>Estefanía Rodríguez</h3>
                 <p><strong>32 años</strong> • Diseñadora gráfica • Bogotá, Colombia</p>
                 <p style="margin-top: 10px;">Hace 2 años contrató un seguro de auto a través de su banco.<br>Lo hizo rápido, en 10 minutos, desde su celular.</p>
             </div>
         </div>
         <div class="quote dark-text">"Fue súper fácil contratar el seguro. Tres clicks y listo. Me sentí moderna, en control."</div>
-        <div class="insight"><strong>💡 Insight B2C:</strong> María no compró un seguro. Compró <strong>tranquilidad sin fricción</strong>. La experiencia inicial marcó sus expectativas.<br><br>
+        <div class="insight"><strong>💡 Insight B2C:</strong> Estefanía no compró un seguro. Compró <strong>tranquilidad sin fricción</strong>. La experiencia inicial marcó sus expectativas.<br><br>
         <strong>🏦 Cliente B2B:</strong> El banco que vendió el seguro necesita que el proceso sea tan simple que sus asesores puedan cerrarlo en < 5 minutos, maximizando conversión sin fricción operativa.</div>
     </div>
     """, unsafe_allow_html=True)
@@ -148,7 +148,7 @@ elif st.session_state.step == 2:
     st.markdown("""
     <div class="story-section">
         <h2 style="color: #0072CE;">🍼 Capítulo 2: Todo Cambió</h2>
-        <p style="font-size: 1.3em; line-height: 1.8; color: #333;">Tres meses atrás, María tuvo a <strong>Sofía</strong>, su primera hija.</p>
+        <p style="font-size: 1.3em; line-height: 1.8; color: #333;">Tres meses atrás, Estefanía tuvo a <strong>Sofía</strong>, su primera hija.</p>
         <div style="text-align: center; margin: 40px 0;">
             <div style="font-size: 5em;">👶</div>
             <p style="font-size: 1.2em; color: #0072CE; margin-top: 20px;">Su mundo cambió. Sus prioridades cambiaron.<br>Su seguro... <strong>necesitaba cambiar también</strong>.</p>
@@ -160,7 +160,7 @@ elif st.session_state.step == 2:
     """, unsafe_allow_html=True)
     col1, col2, col3 = st.columns([1, 2, 1])
     with col2:
-        if st.button("➡️ ¿Qué hizo María?", use_container_width=True):
+        if st.button("➡️ ¿Qué hizo Estefanía?", use_container_width=True):
             avanzar()
             st.rerun()
 
@@ -168,7 +168,7 @@ elif st.session_state.step == 3:
     st.markdown("""
     <div class="story-section problem">
         <h2>😤 Capítulo 3: El Laberinto</h2>
-        <p style="font-size: 1.2em; line-height: 1.8; margin-bottom: 40px;">María llamó al banco para agregar cobertura de accidentes personales familiar. <strong>Esto es lo que vivió:</strong></p>
+        <p style="font-size: 1.2em; line-height: 1.8; margin-bottom: 40px;">Estefanía llamó al banco para agregar cobertura de accidentes personales familiar. <strong>Esto es lo que vivió:</strong></p>
         <div class="timeline">
             <div class="timeline-item"><div class="timeline-icon">📞</div><div class="timeline-content"><h4>Llamada 1: El banco</h4><p>"Su seguro lo maneja otra área. Le transfiero."</p><p style="font-size: 0.9em; opacity: 0.8; margin-top: 10px;">⏱️ 12 minutos en espera</p></div></div>
             <div class="timeline-item"><div class="timeline-icon">🔄</div><div class="timeline-content"><h4>Llamada 2: Centro de seguros</h4><p>"Necesito su número de póliza, fecha de nacimiento, y tres documentos por email."</p><p style="font-size: 0.9em; opacity: 0.8; margin-top: 10px;">⏱️ 8 minutos explicando lo mismo</p></div></div>
@@ -198,7 +198,7 @@ elif st.session_state.step == 4:
     st.markdown("""
     <div class="story-section solution">
         <h2>🎯 Mi Enfoque: Diseño desde la Empatía Radical</h2>
-        <p style="font-size: 1.3em; line-height: 1.8; margin-bottom: 30px;">El problema no es técnico. Es <strong>humano</strong>.<br>María (B2C) no necesitaba un "proceso de modificaciones".<br>El banco (B2B) no necesitaba más documentación.<br><br>Ambos necesitaban <strong>velocidad emocional y transparencia</strong>.</p>
+        <p style="font-size: 1.3em; line-height: 1.8; margin-bottom: 30px;">El problema no es técnico. Es <strong>humano</strong>.<br>Estefanía (B2C) no necesitaba un "proceso de modificaciones".<br>El banco (B2B) no necesitaba más documentación.<br><br>Ambos necesitaban <strong>velocidad emocional y transparencia</strong>.</p>
         <div class="quote">"No diseño procesos. Diseño momentos que respetan la urgencia emocional del cliente final y la eficiencia operativa del canal."</div>
         <h3 style="margin: 50px 0 30px 0; font-size: 1.8em;">🧭 Mis 4 Principios (alineados con SuraTech)</h3>
         <div class="principles-grid">
@@ -218,8 +218,8 @@ elif st.session_state.step == 4:
 elif st.session_state.step == 5:
     st.markdown("""
     <div class="story-section">
-        <h2 style="color: #0072CE;">✨ Capítulo 4: El Proceso que María (y el Banco) Merecen</h2>
-        <p style="font-size: 1.2em; line-height: 1.8; margin-bottom: 40px; color: #333;">Imagina que María abre la app del banco y ve esto:</p>
+        <h2 style="color: #0072CE;">✨ Capítulo 4: El Proceso que Estefanía (y el Banco) Merecen</h2>
+        <p style="font-size: 1.2em; line-height: 1.8; margin-bottom: 40px; color: #333;">Imagina que Estefanía abre la app del banco y ve esto:</p>
         <div style="background: linear-gradient(135deg, #E8F4F8 0%, #fff 100%); padding: 30px; border-radius: 15px; margin: 30px 0; border: 2px solid #0072CE;">
             <div style="background: white; padding: 25px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,114,206,0.2);">
                 <h3 style="color: #0072CE; margin: 0 0 15px 0;">👶 ¿Tu familia creció?</h3>
@@ -347,7 +347,7 @@ with st.sidebar:
     st.markdown("### 📖 Progreso de la Historia")
     st.markdown("*Usa este menú para navegar*")
     st.markdown("---")
-    steps = ["🏠 Inicio","👤 Cliente B2C: María","🍼 El Cambio","😤 El Problema","💡 Mi Enfoque","✨ La Solución","📊 Métricas B2B/B2C","🌎 Expansión LATAM","💫 El Cierre"]
+    steps = ["🏠 Inicio","👤 Cliente B2C: Estefanía","🍼 El Cambio","😤 El Problema","💡 Mi Enfoque","✨ La Solución","📊 Métricas B2B/B2C","🌎 Expansión LATAM","💫 El Cierre"]
     for i, step in enumerate(steps):
         if i < st.session_state.step:
             st.success(f"✅ {step}")
