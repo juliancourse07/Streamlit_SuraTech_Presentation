@@ -621,6 +621,7 @@ elif st.session_state.step == 6:
         </div>
         
         <h3 style="color: #1a1a1a; margin: 40px 0 25px 0;">Mis KPIs Disruptivos:</h3>
+    </div>
     """, unsafe_allow_html=True)
     
     col1, col2 = st.columns(2)
@@ -688,7 +689,6 @@ elif st.session_state.step == 6:
             • Sintió <strong>alivio</strong> al terminar<br>
             • Volvería a <strong>confiar</strong> en nosotros
         </div>
-    </div>
     """, unsafe_allow_html=True)
     
     col1, col2, col3 = st.columns([1, 2, 1])
